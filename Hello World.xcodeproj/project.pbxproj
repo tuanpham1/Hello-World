@@ -16,13 +16,13 @@
 		8C783E59175D9E9700D73B88 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C783E58175D9E9700D73B88 /* Default.png */; };
 		8C783E5B175D9E9700D73B88 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C783E5A175D9E9700D73B88 /* Default@2x.png */; };
 		8C783E5D175D9E9700D73B88 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C783E5C175D9E9700D73B88 /* Default-568h@2x.png */; };
-		8C783E60175D9E9700D73B88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C783E5F175D9E9700D73B88 /* ViewController.m */; };
-		8C783E63175D9E9700D73B88 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C783E61175D9E9700D73B88 /* ViewController.xib */; };
 		8C783E6B175D9E9700D73B88 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C783E6A175D9E9700D73B88 /* SenTestingKit.framework */; };
 		8C783E6C175D9E9700D73B88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C783E46175D9E9700D73B88 /* UIKit.framework */; };
 		8C783E6D175D9E9700D73B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C783E48175D9E9700D73B88 /* Foundation.framework */; };
 		8C783E75175D9E9700D73B88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C783E73175D9E9700D73B88 /* InfoPlist.strings */; };
 		8C783E78175D9E9700D73B88 /* Hello_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C783E77175D9E9700D73B88 /* Hello_WorldTests.m */; };
+		8C783E8A175D9FB000D73B88 /* HWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C783E88175D9FB000D73B88 /* HWHomeViewController.m */; };
+		8C783E8B175D9FB000D73B88 /* HWHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C783E89175D9FB000D73B88 /* HWHomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,15 +49,15 @@
 		8C783E58175D9E9700D73B88 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8C783E5A175D9E9700D73B88 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8C783E5C175D9E9700D73B88 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8C783E5E175D9E9700D73B88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8C783E5F175D9E9700D73B88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8C783E62175D9E9700D73B88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		8C783E69175D9E9700D73B88 /* Hello WorldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C783E6A175D9E9700D73B88 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8C783E72175D9E9700D73B88 /* Hello WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hello WorldTests-Info.plist"; sourceTree = "<group>"; };
 		8C783E74175D9E9700D73B88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8C783E76175D9E9700D73B88 /* Hello_WorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello_WorldTests.h; sourceTree = "<group>"; };
 		8C783E77175D9E9700D73B88 /* Hello_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_WorldTests.m; sourceTree = "<group>"; };
+		8C783E87175D9FB000D73B88 /* HWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHomeViewController.h; sourceTree = "<group>"; };
+		8C783E88175D9FB000D73B88 /* HWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHomeViewController.m; sourceTree = "<group>"; };
+		8C783E89175D9FB000D73B88 /* HWHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HWHomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +119,9 @@
 			children = (
 				8C783E55175D9E9700D73B88 /* AppDelegate.h */,
 				8C783E56175D9E9700D73B88 /* AppDelegate.m */,
-				8C783E5E175D9E9700D73B88 /* ViewController.h */,
-				8C783E5F175D9E9700D73B88 /* ViewController.m */,
-				8C783E61175D9E9700D73B88 /* ViewController.xib */,
+				8C783E87175D9FB000D73B88 /* HWHomeViewController.h */,
+				8C783E88175D9FB000D73B88 /* HWHomeViewController.m */,
+				8C783E89175D9FB000D73B88 /* HWHomeViewController.xib */,
 				8C783E4D175D9E9700D73B88 /* Supporting Files */,
 			);
 			path = "Hello World";
@@ -235,7 +235,7 @@
 				8C783E59175D9E9700D73B88 /* Default.png in Resources */,
 				8C783E5B175D9E9700D73B88 /* Default@2x.png in Resources */,
 				8C783E5D175D9E9700D73B88 /* Default-568h@2x.png in Resources */,
-				8C783E63175D9E9700D73B88 /* ViewController.xib in Resources */,
+				8C783E8B175D9FB000D73B88 /* HWHomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +272,7 @@
 			files = (
 				8C783E53175D9E9700D73B88 /* main.m in Sources */,
 				8C783E57175D9E9700D73B88 /* AppDelegate.m in Sources */,
-				8C783E60175D9E9700D73B88 /* ViewController.m in Sources */,
+				8C783E8A175D9FB000D73B88 /* HWHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +301,6 @@
 				8C783E50175D9E9700D73B88 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8C783E61175D9E9700D73B88 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C783E62175D9E9700D73B88 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 		8C783E73175D9E9700D73B88 /* InfoPlist.strings */ = {
@@ -375,6 +367,7 @@
 		8C783E7C175D9E9700D73B88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hello World/Hello World-Prefix.pch";
 				INFOPLIST_FILE = "Hello World/Hello World-Info.plist";
@@ -386,6 +379,7 @@
 		8C783E7D175D9E9700D73B88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hello World/Hello World-Prefix.pch";
 				INFOPLIST_FILE = "Hello World/Hello World-Info.plist";
@@ -447,6 +441,7 @@
 				8C783E7D175D9E9700D73B88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C783E7E175D9E9700D73B88 /* Build configuration list for PBXNativeTarget "Hello WorldTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +450,7 @@
 				8C783E80175D9E9700D73B88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
