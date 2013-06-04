@@ -29,14 +29,16 @@
     lbTitle.text = @"Bạn hãy nhập tên của mình!";
     tfName.delegate = self;
 }
-
+// begin show keyboarch
 -(void)textFieldDidBeginEditing:(UITextField *)textField {
     [textField setReturnKeyType:UIReturnKeyDone];
 }
+// get text from text field
 -(BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
     return YES;
 
 }
+// when click done button
 -(BOOL)textFieldShouldReturn:(UITextField *)textField {
 
     NSLog(@"textField:%@",textField.text);
