@@ -10,8 +10,9 @@
 
 @interface HWHomeViewController : UIViewController<UITextFieldDelegate> {
 
-    IBOutlet UILabel *lbTitle;
-    IBOutlet UITextField *tfName;
+    IBOutlet UIImageView *imageViewIconLabel;
+    IBOutlet UILabel *labelTitle;
+    IBOutlet UITextField *textFieldNameUser;
 
 }
 @end

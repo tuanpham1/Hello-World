@@ -12,17 +12,16 @@
 		8C783E4B175D9E9700D73B88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C783E4A175D9E9700D73B88 /* CoreGraphics.framework */; };
 		8C783E51175D9E9700D73B88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C783E4F175D9E9700D73B88 /* InfoPlist.strings */; };
 		8C783E53175D9E9700D73B88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C783E52175D9E9700D73B88 /* main.m */; };
-		8C783E57175D9E9700D73B88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C783E56175D9E9700D73B88 /* AppDelegate.m */; };
 		8C783E59175D9E9700D73B88 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C783E58175D9E9700D73B88 /* Default.png */; };
 		8C783E5B175D9E9700D73B88 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C783E5A175D9E9700D73B88 /* Default@2x.png */; };
 		8C783E5D175D9E9700D73B88 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C783E5C175D9E9700D73B88 /* Default-568h@2x.png */; };
 		8C783E6B175D9E9700D73B88 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C783E6A175D9E9700D73B88 /* SenTestingKit.framework */; };
 		8C783E6C175D9E9700D73B88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C783E46175D9E9700D73B88 /* UIKit.framework */; };
 		8C783E6D175D9E9700D73B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C783E48175D9E9700D73B88 /* Foundation.framework */; };
-		8C783E75175D9E9700D73B88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C783E73175D9E9700D73B88 /* InfoPlist.strings */; };
-		8C783E78175D9E9700D73B88 /* Hello_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C783E77175D9E9700D73B88 /* Hello_WorldTests.m */; };
-		8C783E8A175D9FB000D73B88 /* HWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C783E88175D9FB000D73B88 /* HWHomeViewController.m */; };
-		8C783E8B175D9FB000D73B88 /* HWHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C783E89175D9FB000D73B88 /* HWHomeViewController.xib */; };
+		8CDCF398175ED996009A3A36 /* HWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCF391175ED996009A3A36 /* HWHomeViewController.m */; };
+		8CDCF399175ED996009A3A36 /* HWHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CDCF392175ED996009A3A36 /* HWHomeViewController.xib */; };
+		8CDCF39A175ED996009A3A36 /* icon-label.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8CDCF394175ED996009A3A36 /* icon-label.jpeg */; };
+		8CDCF39B175ED996009A3A36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCF397175ED996009A3A36 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,20 +43,17 @@
 		8C783E50175D9E9700D73B88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8C783E52175D9E9700D73B88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C783E54175D9E9700D73B88 /* Hello World-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello World-Prefix.pch"; sourceTree = "<group>"; };
-		8C783E55175D9E9700D73B88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8C783E56175D9E9700D73B88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8C783E58175D9E9700D73B88 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8C783E5A175D9E9700D73B88 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8C783E5C175D9E9700D73B88 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8C783E69175D9E9700D73B88 /* Hello WorldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C783E6A175D9E9700D73B88 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8C783E72175D9E9700D73B88 /* Hello WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hello WorldTests-Info.plist"; sourceTree = "<group>"; };
-		8C783E74175D9E9700D73B88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8C783E76175D9E9700D73B88 /* Hello_WorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello_WorldTests.h; sourceTree = "<group>"; };
-		8C783E77175D9E9700D73B88 /* Hello_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_WorldTests.m; sourceTree = "<group>"; };
-		8C783E87175D9FB000D73B88 /* HWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHomeViewController.h; sourceTree = "<group>"; };
-		8C783E88175D9FB000D73B88 /* HWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHomeViewController.m; sourceTree = "<group>"; };
-		8C783E89175D9FB000D73B88 /* HWHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HWHomeViewController.xib; sourceTree = "<group>"; };
+		8CDCF390175ED996009A3A36 /* HWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHomeViewController.h; sourceTree = "<group>"; };
+		8CDCF391175ED996009A3A36 /* HWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHomeViewController.m; sourceTree = "<group>"; };
+		8CDCF392175ED996009A3A36 /* HWHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HWHomeViewController.xib; sourceTree = "<group>"; };
+		8CDCF394175ED996009A3A36 /* icon-label.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "icon-label.jpeg"; sourceTree = "<group>"; };
+		8CDCF396175ED996009A3A36 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CDCF397175ED996009A3A36 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				8C783E4C175D9E9700D73B88 /* Hello World */,
-				8C783E70175D9E9700D73B88 /* Hello WorldTests */,
 				8C783E45175D9E9700D73B88 /* Frameworks */,
 				8C783E43175D9E9700D73B88 /* Products */,
 			);
@@ -117,11 +112,9 @@
 		8C783E4C175D9E9700D73B88 /* Hello World */ = {
 			isa = PBXGroup;
 			children = (
-				8C783E55175D9E9700D73B88 /* AppDelegate.h */,
-				8C783E56175D9E9700D73B88 /* AppDelegate.m */,
-				8C783E87175D9FB000D73B88 /* HWHomeViewController.h */,
-				8C783E88175D9FB000D73B88 /* HWHomeViewController.m */,
-				8C783E89175D9FB000D73B88 /* HWHomeViewController.xib */,
+				8CDCF393175ED996009A3A36 /* Images */,
+				8CDCF38F175ED996009A3A36 /* Home Screen */,
+				8CDCF395175ED996009A3A36 /* Libs */,
 				8C783E4D175D9E9700D73B88 /* Supporting Files */,
 			);
 			path = "Hello World";
@@ -141,23 +134,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8C783E70175D9E9700D73B88 /* Hello WorldTests */ = {
+		8CDCF38F175ED996009A3A36 /* Home Screen */ = {
 			isa = PBXGroup;
 			children = (
-				8C783E76175D9E9700D73B88 /* Hello_WorldTests.h */,
-				8C783E77175D9E9700D73B88 /* Hello_WorldTests.m */,
-				8C783E71175D9E9700D73B88 /* Supporting Files */,
+				8CDCF390175ED996009A3A36 /* HWHomeViewController.h */,
+				8CDCF391175ED996009A3A36 /* HWHomeViewController.m */,
+				8CDCF392175ED996009A3A36 /* HWHomeViewController.xib */,
 			);
-			path = "Hello WorldTests";
+			path = "Home Screen";
 			sourceTree = "<group>";
 		};
-		8C783E71175D9E9700D73B88 /* Supporting Files */ = {
+		8CDCF393175ED996009A3A36 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				8C783E72175D9E9700D73B88 /* Hello WorldTests-Info.plist */,
-				8C783E73175D9E9700D73B88 /* InfoPlist.strings */,
+				8CDCF394175ED996009A3A36 /* icon-label.jpeg */,
 			);
-			name = "Supporting Files";
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8CDCF395175ED996009A3A36 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				8CDCF396175ED996009A3A36 /* AppDelegate.h */,
+				8CDCF397175ED996009A3A36 /* AppDelegate.m */,
+			);
+			path = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +236,8 @@
 				8C783E59175D9E9700D73B88 /* Default.png in Resources */,
 				8C783E5B175D9E9700D73B88 /* Default@2x.png in Resources */,
 				8C783E5D175D9E9700D73B88 /* Default-568h@2x.png in Resources */,
-				8C783E8B175D9FB000D73B88 /* HWHomeViewController.xib in Resources */,
+				8CDCF399175ED996009A3A36 /* HWHomeViewController.xib in Resources */,
+				8CDCF39A175ED996009A3A36 /* icon-label.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C783E75175D9E9700D73B88 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C783E53175D9E9700D73B88 /* main.m in Sources */,
-				8C783E57175D9E9700D73B88 /* AppDelegate.m in Sources */,
-				8C783E8A175D9FB000D73B88 /* HWHomeViewController.m in Sources */,
+				8CDCF398175ED996009A3A36 /* HWHomeViewController.m in Sources */,
+				8CDCF39B175ED996009A3A36 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +281,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C783E78175D9E9700D73B88 /* Hello_WorldTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +299,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				8C783E50175D9E9700D73B88 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8C783E73175D9E9700D73B88 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C783E74175D9E9700D73B88 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

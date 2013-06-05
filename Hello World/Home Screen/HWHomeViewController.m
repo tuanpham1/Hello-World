@@ -26,8 +26,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    lbTitle.text = @"Bạn hãy nhập tên của mình!";
-    tfName.delegate = self;
+    imageViewIconLabel.image = [UIImage imageNamed:@"icon-label.jpeg"];
+    labelTitle.text = @"Bạn hãy nhập tên của mình!";
+    textFieldNameUser.delegate = self;
 }
 // begin show keyboarch
 -(void)textFieldDidBeginEditing:(UITextField *)textField {
@@ -41,9 +42,8 @@
 // when click done button
 -(BOOL)textFieldShouldReturn:(UITextField *)textField {
 
-    NSLog(@"textField:%@",textField.text);
     if (textField.text.length != 0) {
-        NSString *strTitle = [NSString stringWithFormat:@"Welcome,%@",[textField.text uppercaseString]];
+        NSString *strTitle = [NSString stringWithFormat:@"Welcome, %@",[textField.text uppercaseString]];
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"" message:strTitle delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
         [alertView show];
         textField.text = @"";
